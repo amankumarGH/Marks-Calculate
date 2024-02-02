@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bokeh-2072271_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  display: flex;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  gap: 1rem;
+  padding: 1rem;
+}
+.calculation {
+  width: 100%;
+  background-color: rgb(63, 71, 71);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.values {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+input {
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+.btn,.btn1 {
+  width: 30%;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(214, 126, 11);
+  color: #fff;
+}
